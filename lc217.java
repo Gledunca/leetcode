@@ -1,0 +1,1 @@
+import java.util.HashSet;class Solution{public boolean containsDuplicate(int[] nums){HashSet set = new HashSet();for(int num:nums){if(!set.add(num)){System.out.println(num);return true;}}return false;}}
